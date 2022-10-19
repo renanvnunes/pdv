@@ -275,8 +275,8 @@ export default defineComponent({
 			this.loader = true
 			await axios.get("https://dutoeo.conteige.cloud/products", {
 				headers: {
-					Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzIxZDYwODFiZmMyOTlmNDNlZjE5MmYiLCJub21lIjoiUmVuYW4gTnVuZXMiLCJlbWFpbCI6InJlbmFuLmRldkBob3RtYWlsLmNvbSIsInN1cGVyX3VzZXIiOnRydWUsImVpcyI6WyI2MWNjNGE2MDIzN2NkZjJkYTEyZjRjNDIiXSwiaWF0IjoxNjY0NDg0MjcwLCJleHAiOjE2NzMxNzA2NzB9.rTihr-eyWzG0AJ2U4dTd2Mhe1XYM6rVsrE0HEAs2Z0Y",
-					EI: "61cc4a60237cdf2da12f4c42"
+					Authorization: "",
+					EI: ""
 				}
 			}).then(resp => {
 				this.loader = false
