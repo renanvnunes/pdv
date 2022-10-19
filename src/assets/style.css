@@ -1,0 +1,75 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Arial";
+  font-size: 20px;
+
+  color: #000;
+  background-color: #f6f6f6;
+  letter-spacing: 1.5px;
+
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  cursor: default;
+}
+.form-control{
+  border-width: 3px!important;
+  
+  background-color: #f2f2f2!important;
+}
+.form-control:focus{
+  border-color: #4ebf79!important;
+  box-shadow: none!important;
+}
+.bar {
+  background-color: #eee;
+  padding: 20px;
+
+}
+.border{
+  border-radius: 5px;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 10px;
+}
+.box .back{
+  background-color: #eee;
+  margin: 10px;
+  padding: 20px;
+}
+.box .title{
+  font-size: 25px;
+  color: #4ebf79;
+  margin-bottom: 10px;
+}
+.box .items{
+  width: 60%;
+}
+.box .options{
+  width: 40%;
+}
+.box .add-item{
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 3px;
+}
+.total{
+  text-align: center;
+  font-size: 30px;
+  line-height: 15px;
+  padding-top: 40px;
+}
+.total h1{
+  color: #4ebf79;
+  font-size: 70px;
+  font-weight: bold;
+}
